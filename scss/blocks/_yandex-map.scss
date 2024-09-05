@@ -1,0 +1,16 @@
+[class*="copyrights-pane"] {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.map:hover [class*="copyrights-pane"] {
+    opacity: 1;
+}
+
+[class*="gototech"] {
+    display: none !important;
+}
+
+[class*="ground-pane"] {
+    filter: grayscale(1) sepia(10%);
+}
